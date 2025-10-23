@@ -1,46 +1,45 @@
 # 🐑 RecapBot
 
-RecapBot is a small locally hosted Discord bot that makes quick summaries of what's been happening in your server.  
+So, RecapBot is a small locally hosted Discord bot that makes quick summaries of what's been happening in your server.  
 If you’ve been away for a bit, just type /recap [hours] and it’ll show you the main topics, who’s been actively messaging, most used reactions/most reacted to message, shared links, and a preview image if anyone has sent an image.
 
 ---
 
-## ✨ What it does
+## ✨ Specifics
 - Gives you a quick summary of recent messages.  
 - Lists the most active users and common topics.  
-- Counts reactions and shows the top ones.  
-- Finds links, files, and image attachments.  
+- Counts reactions and shows the top ones. 
+- Finds links, files, and image attachments (With a Preview).  
 - Shows the most reacted message in the channel.  
-- Uses a calm sheep theme 🐑 with soft blue colors.
 
 ---
 ## 🧩 BEFORE Getting Started
 You can make your own little custom discord bot/app in https://discord.com/developers. You should customize it and make it your own for the full experience. Setting up this part beforehand is very VERY important as it is needed to get TWO of the IDs and will also make me very happy.
 
 ## 🧩 Getting started
+I will be adding the commands jut in case someone needs them or isn't familiar with something.
 
-### 1. Clone this repo or get it into your system however you do it
-```bash
-git clone https://github.com/YOUR-USERNAME/RecapBot.git
-cd RecapBot
-```
+## 1. Fork or clone this repo as you will need to edit 1 file inside it.
+Also, if you improve it in some way I'd love to take a look at it.
 
-2. PLEASE install what it needs
+## 2. PLEASE install what it needs
 ```bash
+(Download Node.js)
+Then in the vscode terminal (I love you VSCode)
 npm install
 ```
 
-3. Add you Discord server ID and stuff and write it down in the .env file
+## 3. Add you Discord server ID and stuff and write it down in the .env file
  - In the project folder, create a file or rename the .env.example file into .env and edit the info inside!!
 ```bash
 DISCORD_BOT_TOKEN=[You get this id from the https://discord.com/developers site.]
 APPLICATION_IDENTIFIER=[found in discord app dev thingy]
 SERVER_IDENTIFIER=[with dev mode on, right click your server and click "copy id"]
 ```
-🔒 Don’t share this file!! 🔒
-It holds your bot token! It's already listed in .gitignore, so it won’t be uploaded to GitHub if you happen to remake this in a much more proffesional way. Anyway I recommend not touching it.
+🔒 Don’t share the .env file!! 🔒
+It holds your bot token! It's already listed in .gitignore, so it won’t be uploaded to GitHub if you happen to remake this in a much more professional way. Anyway I recommend not touching it.
 
-4. Run it
+## 4. Run it
 ```bash
 Commands in case you need them:
 npm run deploy
@@ -65,7 +64,7 @@ And RecapBot will check the specified amount of hours of messages and send a "su
 - The message with the most reactions
 - Any links, files, or image previews it finds
 
-🧵 Example
+## 🧵 Example
 
 🐑 recap — #general (last 24h)
 ✨ summary
@@ -81,12 +80,10 @@ And RecapBot will check the specified amount of hours of messages and send a "su
 
 📌 most reacted message
 mara (14 reacts):
-
-finally got the build working 🎉
+"finally got the build working!! YAHOO"
 
 🔗 links & files
 🔗 https://github.com/project/update
-
 📎 screenshot.png
 
 🛠 Built with
@@ -100,7 +97,7 @@ If you want the bot to stay online all the time, you can host it on a service li
 I tested it and it should work as fully intended so it’ll stay active as long as you keep your terminal open.
 This project was just made for fun and im not planning on hosting it elsewhere for the moment but that could change so...
 
-📄 License
+## 📄 License
 
-MIT License-you can use, edit, and improve RecapBot freely.
+MIT License - you can use, edit, and improve RecapBot freely.
 If you like it and do something of the sort to improve it PLEASE let me know so I can congratulate you for understanding this mess of a code. Giving credit is always appreciated 🐑
