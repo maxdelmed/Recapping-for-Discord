@@ -67,26 +67,27 @@ And RecapBot will check the specified amount of hours of messages and send a "su
 ## 🧵 Example
 
 🐑 recap — #general (last 24h)
-✨ summary
+#### ✨ summary
 • messages: 58
 • people: 12
 • reactions: 145
 • top: update, bug, idea, fix
 
-🐾 activity
+#### 🐾 activity
 • most active: @alex (13), @mara (10), @leo (8)
 • images: 2 • links: 4 • files: 1
 • top reacts: 👍 × 57 · 🐑 × 16
 
-📌 most reacted message
+#### 📌 most reacted message
 mara (14 reacts):
 "finally got the build working!! YAHOO"
 
 🔗 links & files
 🔗 https://github.com/project/update
 📎 screenshot.png
+##
 
-🛠 Built with
+#### 🛠 Built with
 - Node.js
 - Discord.js
 - TypeScript
