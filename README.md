@@ -1,6 +1,6 @@
 # 🐑 RecapBot
-
-So, RecapBot is a small locally hosted Discord bot that makes quick summaries of what's been happening in your server.  
+I got tired of my friend being chronically Offline. This won't fix it but it's a start. 
+RecapBot is a small Discord bot that makes quick summaries of what's been happening in your server.  
 If you’ve been away for a bit, just type /recap [hours] and it’ll show you the main topics, who’s been actively messaging, most used reactions/most reacted to message, shared links, and a preview image if anyone has sent an image.
 
 ---
@@ -24,8 +24,8 @@ Also, if you improve it in some way I'd love to take a look at it.
 
 ## 2. PLEASE install what it needs
 ```bash
-(Download Node.js)
-Then in the vscode terminal (I love you VSCode)
+## (Download Node.js)
+## Then in the vscode terminal (I love you VSCode)
 npm install
 ```
 
@@ -41,13 +41,13 @@ It holds your bot token! It's already listed in .gitignore, so it won’t be upl
 
 ## 4. Run it
 ```bash
-Commands in case you need them:
+## Commands in case you need them:
 npm run deploy
 nom run dev
 ```
 and when you see
 ```bash
-RecapBot is online as RecapBot#(idnumber)
+## RecapBot is online as RecapBot#(idnumber)
 ```
 ITS READY!!!
 
