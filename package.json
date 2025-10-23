@@ -1,0 +1,21 @@
+{
+  "name": "recapbot",
+  "version": "1.0.0",
+  "description": "A Discord bot that summarizes recent server activity in simple language.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "deploy": "ts-node src/deploy.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
